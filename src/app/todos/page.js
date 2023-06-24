@@ -1,7 +1,7 @@
-"use client";
-import { useEffect, useState } from "react";
+import React, { useState, useEffect } from 'react';
 
-const todos = () => {
+
+const Todos = () => {
   const [createdTodos, setCreatedTodos] = useState([]);
 
   useEffect(() => {
@@ -98,4 +98,4 @@ const todos = () => {
   );
 };
 
-export default todos;
+export default Todos;
